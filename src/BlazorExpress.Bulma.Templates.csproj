@@ -3,13 +3,13 @@
   <PropertyGroup>
     <PackageId>BlazorExpress.Bulma.Templates</PackageId>
     <PackageType>Template</PackageType>
-    <PackageVersion>0.1.0</PackageVersion>
+    <PackageVersion>0.3.0</PackageVersion>
 	<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <Authors>Vikram Reddy</Authors>
     <Title>BlazorExpress Bulma Templates</Title>
     <Description>BlazorExpress Bulma custom templates for dotnet new.</Description>
 
-	<PackageIcon>128X128.png</PackageIcon>
+	<PackageIcon>logo.png</PackageIcon>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>dotnet-new;templates;blazor;webassembly;blazorexpress;bulma;blazorwebassembly;server;blazorserver</PackageTags>
 	<PackageReleaseNotes>https://github.com/BlazorExpress/BlazorExpress.Bulma.Templates/releases</PackageReleaseNotes>
@@ -31,11 +31,11 @@
   </ItemGroup>
 
 	<ItemGroup>
-	  <None Include="nuget\README.md">
+	  <None Include="..\README.md">
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
 	  </None>
-	  <None Include="images\logo\128X128.png">
+	  <None Include="..\logo.png">
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
 	  </None>

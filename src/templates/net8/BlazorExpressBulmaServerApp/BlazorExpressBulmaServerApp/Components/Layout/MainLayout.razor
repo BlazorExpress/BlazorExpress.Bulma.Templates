@@ -28,7 +28,7 @@
             <NavbarBrand>
                 <NavbarItem Href="/" Class="title is-4">
                     <img src="logo.png" alt="Bulma App" />
-                    <span class="ml-2 is-size-5 has-text-weight-bold">Bulma Web App</span>
+                    <span class="ml-2 is-size-5 has-text-weight-bold">@applicationName</span>
                 </NavbarItem>
             </NavbarBrand>
         </Navbar>
@@ -55,7 +55,7 @@
 </BulmaLayout>
 
 @code {
+    private string applicationName = "BlazorExpressBulmaServerApp";
     private Menu menuRef = default!;
     private void ToggleSidebarSection() => @menuRef.Toggle();
 }
-

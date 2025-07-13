@@ -13,7 +13,7 @@
     ],
     "identity": "BlazorExpress.Bulma.Templates.Server.NET8",
     "name": "BlazorExpress Bulma - Server App (.NET 8)",
-    "shortName": "blazorexpress-bulma-server-net8",
+    "shortName": "be-bulma-server-net8",
     "tags": {
       "language": "C#",
       "type":"project"
