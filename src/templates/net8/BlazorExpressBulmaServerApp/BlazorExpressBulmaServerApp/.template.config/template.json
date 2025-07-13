@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "icon": "logo.png",
+    "author": "Vikram Reddy",
+    "classifications": [ 
+      "ASP.NET Core", 
+      "Blazor", 
+	  "Bulma",
+      "BlazorExpress",
+      "Empty",
+      "Server",
+      "Web"
+    ],
+    "identity": "BlazorExpress.Bulma.Templates.Server.NET8",
+    "name": "BlazorExpress Bulma - Server App (.NET 8)",
+    "shortName": "blazorexpress-bulma-server-net8",
+    "tags": {
+      "language": "C#",
+      "type":"project"
+    },
+    "sourceName": "BlazorExpressBulmaServerApp",
+    "description": "A project template for creating a BlazorExpress Bulma server app that runs server-side.",
+    "preferNameDirectory": true,
+    "symbols": {
+    }
+  }
