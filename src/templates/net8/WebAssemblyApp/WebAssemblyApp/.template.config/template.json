@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "icon": "logo.png",
+  "author": "Vikram Reddy",
+  "classifications": [
+    "ASP.NET Core",
+    "Blazor",
+    "Bulma",
+    "BlazorExpress",
+    "Empty",
+    "Server",
+    "Web"
+  ],
+  "identity": "BlazorExpress.Bulma.Templates.WebAssembly.NET8",
+  "name": "BlazorExpress Bulma - WebAssembly App (.NET 8)",
+  "shortName": "be-bulma-webassembly-net8",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "WebAssemblyApp",
+  "description": "A project template for creating a BlazorExpress Bulma WebAssembly app that runs client-side.",
+  "preferNameDirectory": true,
+  "symbols": {
+  }
+}

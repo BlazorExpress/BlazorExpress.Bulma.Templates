@@ -1,5 +1,6 @@
 ﻿@inherits LayoutComponentBase
-<div class="page">
+
+@* <div class="page">
     <div class="sidebar">
         <NavMenu />
     </div>
@@ -13,4 +14,42 @@
             @Body
         </article>
     </main>
-</div>
+</div> *@
+
+<BulmaLayout>
+    <HeaderSection>
+        <Navbar Class="px-3" HasShadow="true">
+            <NavbarBrand>
+                <NavbarItem Href="/" Class="title is-4">
+                    <img src="logo.png" alt="Bulma App" />
+                    <span class="ml-2 is-size-5 has-text-weight-bold">@applicationName</span>
+                </NavbarItem>
+            </NavbarBrand>
+        </Navbar>
+    </HeaderSection>
+    <SidebarSection>
+        <Menu @ref="menuRef" Class="be-bulma-page-menu" IsScrollable="true">
+            <MenuList>
+                <MenuItem Href="/" Match="MenuItemMatch.All">Home</MenuItem>
+                <MenuItem Href="/counter">Counter</MenuItem>
+                <MenuItem Href="/weather">Weather</MenuItem>
+            </MenuList>
+        </Menu>
+    </SidebarSection>
+    <ContentSection>
+        <div class="p-5">
+            <Button Class="bi bi-box-arrow-right menu-toggle-button ml-1 mt-0 mb-1" @onclick="ToggleSidebarSection" />
+            @Body
+        </div>
+    </ContentSection>
+    <FooterSection>
+        <div class="container is-max-desktop mb-4">
+        </div>
+    </FooterSection>
+</BulmaLayout>
+
+@code {
+    private string applicationName = "WebAssemblyApp";
+    private Menu menuRef = default!;
+    private void ToggleSidebarSection() => @menuRef.Toggle();
+}
