@@ -17,3 +17,5 @@ dotnet new install BlazorExpress.Bulma.Templates::0.2.0
 4. Create a new project in Visual Studio. The BlazorExpress.Bulma templates will appear in the project templates list.
 
 For more details, visit the [NuGet package page](https://www.nuget.org/packages/BlazorExpress.Bulma.Templates#readme-body-tab)
+
+<img alt="image" src="https://github.com/user-attachments/assets/45659c83-a9a2-48a7-a221-8652b9ecc81d" />
