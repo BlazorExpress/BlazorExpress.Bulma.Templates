@@ -11,7 +11,7 @@
     "Web"
   ],
   "identity": "BlazorExpress.Bulma.Templates.WebAppAutoGlobal.NET8",
-  "name": "BlazorExpress Bulma - WebAssembly App (.NET 8)",
+  "name": "BlazorExpress Bulma - WebApp Auto Global (.NET 8)",
   "shortName": "be-bulma-webapp-auto-global-net8",
   "tags": {
     "language": "C#",
