@@ -19,3 +19,5 @@ dotnet new install BlazorExpress.Bulma.Templates::0.2.0
 For more details, visit the [NuGet package page](https://www.nuget.org/packages/BlazorExpress.Bulma.Templates#readme-body-tab)
 
 <img alt="image" src="https://github.com/user-attachments/assets/45659c83-a9a2-48a7-a221-8652b9ecc81d" />
+
+<img alt="image" src="https://github.com/user-attachments/assets/47a48970-6f34-4fb9-8344-83db287e7f42" />
