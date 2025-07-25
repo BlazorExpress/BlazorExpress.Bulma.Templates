@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppAutoPerPage", "WebAppAutoPerPage\WebAppAutoPerPage\WebAppAutoPerPage.csproj", "{775DCD15-430F-4627-AF15-74CF1FA5A993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppAutoPerPage.Client", "WebAppAutoPerPage\WebAppAutoPerPage.Client\WebAppAutoPerPage.Client.csproj", "{6A0E74CC-073C-41FC-9B8B-286C23B7BF2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{775DCD15-430F-4627-AF15-74CF1FA5A993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775DCD15-430F-4627-AF15-74CF1FA5A993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{775DCD15-430F-4627-AF15-74CF1FA5A993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{775DCD15-430F-4627-AF15-74CF1FA5A993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A0E74CC-073C-41FC-9B8B-286C23B7BF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A0E74CC-073C-41FC-9B8B-286C23B7BF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A0E74CC-073C-41FC-9B8B-286C23B7BF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A0E74CC-073C-41FC-9B8B-286C23B7BF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {059BFBCF-D944-4939-A72C-0EFF9F0E9685}
+	EndGlobalSection
+EndGlobal
